@@ -9,8 +9,8 @@
 #X obj 72 248 tgl 25 1 mfx-moct r-mfx-moct -oct 30 7 0 10 #feffc6 #000000 #000000 0 1;
 #X obj 72 191 tgl 25 0 mfx-5th r-mfx-5th +5th 32 7 0 10 #feffc6 #000000 #000000 0 1;
 #X obj 72 219 tgl 25 0 mfx-oct r-mfx-oct +oct 30 7 0 10 #feffc6 #000000 #000000 0 1;
-#N canvas 355 71 772 588 guts 1;
-#N canvas 224 25 1216 838 midieffects 1;
+#N canvas 355 71 772 588 guts 0;
+#N canvas 367 79 1216 838 midieffects 0;
 #X obj 137 7 midirealtimein;
 #X obj 39 288 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000;
 #X obj 60 288 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000;
@@ -61,7 +61,7 @@
 #X obj 434 408 % 1;
 #N canvas 0 22 450 278 (subpatch) 0;
 #X array \$0-pitches 5 float 3;
-#A 0 56 54 54 58 63;
+#A 0 63 54 54 58 63;
 #X coords 0 90 5 20 200 140 1 0 0;
 #X restore 26 505 graph;
 #X obj 562 143 stripnote;
